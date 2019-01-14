@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Emily and Salini -->
 <html>
 
     <head>
@@ -10,11 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- w3.css -->
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <!-- local w3.css <link rel="stylesheet" href="w3.css"> -->
         <!-- custom css -->
         <link rel="stylesheet" href="css/style.css">
-        <!-- w3.css theme black-->
-        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+        <!-- local w3.css <link rel="stylesheet" href="w3.css"> -->
         <!-- Front Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- meta description -->
@@ -22,272 +21,157 @@
     </head>
     <body id="myPage">
 
-        <!-- Sidebar on click -->
-        <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
-                <i class="fa fa-remove"></i>
-            </a>
-            <a href="#" class="w3-bar-item w3-button">Link 1</a>
-            <a href="#" class="w3-bar-item w3-button">Link 2</a>
-            <a href="#" class="w3-bar-item w3-button">Link 3</a>
-            <a href="#" class="w3-bar-item w3-button">Link 4</a>
-            <a href="#" class="w3-bar-item w3-button">Link 5</a>
-        </nav>
-
+    
         <!-- Navbar -->
         <div class="w3-top">
-            <div class="w3-bar w3-theme-d2 w3-left-align">
-                <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-                <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
-                <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-                <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
-                <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+            <div class="w3-bar w3-theme-d5 w3-left-align">
+                <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-white"><i class="fa fa-home w3-margin-right"></i>Home</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Us</a>
+                <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Our Work</a>
+                <a href="#achievements" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Achievements</a>
                 <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-                <div class="w3-dropdown-hover w3-hide-small">
-                    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
-                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                        <a href="#" class="w3-bar-item w3-button">Link</a>
-                        <a href="#" class="w3-bar-item w3-button">Link</a>
-                        <a href="#" class="w3-bar-item w3-button">Link</a>
-                    </div>
-                </div>
-                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-white" title="Search"><i class="fa fa-search"></i></a>
             </div>
 
             <!-- Navbar on small screens -->
-            <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-                <a href="#team" class="w3-bar-item w3-button">Team</a>
-                <a href="#work" class="w3-bar-item w3-button">Work</a>
-                <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+            <div id="navDemo" class="w3-bar-block w3-theme-d3 w3-hide w3-hide-large w3-hide-medium">
+                <a href="#team" class="w3-bar-item w3-button">About Us</a>
+                <a href="#work" class="w3-bar-item w3-button">Our Work</a>
+                <a href="#pricing" class="w3-bar-item w3-button">Achievements</a>
                 <a href="#contact" class="w3-bar-item w3-button">Contact</a>
                 <a href="#" class="w3-bar-item w3-button">Search</a>
             </div>
         </div>
 
-        <!-- Image Header -->
-        <div class="w3-display-container w3-animate-opacity">
-            <img src="/w3images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
-            <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN W3.CSS</button>
-            </div>
+        <!-- Header -->
+        <div class="w3-display-container w3-animate-opacity w3-theme-l3 w3-mobile">
+            <img src="img/nightharbor.jpg" alt="boat" style="width:100%;min-height:350px;max-height:570px;" class="w3-mobile">
+            <img src="img/title.png" alt="image of the title for Save the Harbor." style="width:50%;" class="center">
         </div>
+
 
         <!-- Modal -->
         <div id="id01" class="w3-modal">
             <div class="w3-modal-content w3-card-4 w3-animate-top">
                 <header class="w3-container w3-teal w3-display-container"> 
                     <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-                    <h4>Oh snap! We just showed you a modal..</h4>
-                    <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+                    <h4 class="w3-center">You are about to leave this website.</h4>
                 </header>
                 <div class="w3-container">
-                    <p>Cool huh? Ok, enough teasing around..</p>
-                    <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+                    <p class="w3-center">Click <a class="w3-text-teal" href="https://act.myngp.com/Forms/6996472363873601536" target="blank">here</a> to continue.</p>
                 </div>
-                <footer class="w3-container w3-teal">
-                    <p>Modal footer</p>
-                </footer>
             </div>
         </div>
 
-        <!-- Team Container -->
-        <div class="w3-container w3-padding-64 w3-center" id="team">
-            <h2>OUR TEAM</h2>
-            <p>Meet the team - our office rats:</p>
+        <!-- About Us --> 
+            <div class="w3-container w3-padding-64 w3-center" id="about">
+                <h1 style="padding: 5px 5px 5px 5px; w3-display-center">About Us</h1>
+                <p> Save the Harbor/Save the Bay is a non-profit, public interest harbor advocacy organization made up of thousands of citizens as well as civic, corporate, cultural and community leaders and scientists. Our mission is to restore and protect Boston Harbor, Massachusetts Bay, and the marine environment and share them with the public for all to enjoy. </p>
+
+                <p>Save the Harbor was founded in 1986 by the attorney who initiated the Boston Harbor Case, the judge who first heard it, the reporter who covered the case for the Boston Globe and a passionate advocate who wanted to make Boston Harbor clean enough for her children to enjoy. </p>
+
+                <p>Today we are the region's leading voice for clean water and continued public investment in Boston Harbor, the region's public beaches, the Boston Harbor Islands and serve as the Boston Harbor Connection for a generation of young people and their families. In 2013, our free youth environmental education and family programs connected nearly 16,000 underserved young people and their families to Boston Harbor and the Boston Harbor Islands.</p>
+            </div>
+        
+        <!-- Our Work -->
+        <section id="work">
+        <div class="w3-container w3-center w3-padding-64 w3-theme-d3">
+            <h1>Our Work</h1>
+            <p>Save the Harbor/Save the Bay's current programs are designed to restore and protect Boston Harbor and Massachusetts Bay, and share and reconnect all Bostonians, the region's residents, and especially underserved youth and teens and low-income families to the harbor, waterfront, beaches and islands we have worked so hard to restore and protect.</p>
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button" onclick="openCity('London')">Beaches</button>
+                <button class="w3-bar-item w3-button w3-theme-d5" onclick="openCity('Paris')">Events/Programs</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Youth</button>
+            </div>
+
+            <div class="w3-cell-row">
+                <div class="w3-cell w3-mobile">
+                    <div id="London" class="city">
+                        <img src="img/bostonbeach2.jpg" class="w3-image" style="width:50%">
+                        <h2>Leads and manages the Metropolitan Beaches Commission </h2>
+                        <p>for the Massachusetts Legislature. The MBC is charged with making findings and recommendations on how to improve the Boston Harbor Region’s public beaches in Lynn, Nahant, Revere, Winthrop, East Boston, South Boston, Dorchester, Quncy and Hull.  
+</p>
+                    </div>
+                </div>
+
+                <div id="Paris" class="city" style="display:none">
+                    <img src="img/events3.jpg" class="w3-image" style="width:50%">
+                    <h2>Hosts or sponsors more than 30 free events and programs</h2>
+                    <p>on the region’s public beaches from Nahant on the North Shore to Nantasket on the South Shore each summer. Since 2008, our Better Beaches program has raised and invested more than $205,000 in small grants to beaches friends groups in Lynn, Nahant, Revere, Winthrop, East Boston, South Boston, Dorchester, Quincy and Hull. They in turn have leveraged our funds with additional cash and in-kind support for a total investment of $1,020,722 to fund nearly 214 free events and programs.</p> 
+                </div>
+
+                <div id="Tokyo" class="city" style="display:none">
+                    <img src="img/kids.jpg" class="w3-image" style="width:50%">
+                    <h2>Serves as the Boston Harbor Connection</h2>
+                    <p>for more than 100,000 underserved youth, teens and their families who have taken part in our free youth environmental education programs since we began them in 2002. These include All Access Boston Harbor, the Boston Harbor Explorers, and our free Marine Mammal Safaris and Treasures of Spectacle Island Cruises, which connected 18,123 underserved young people and their families to Boston Harbor and the Boston Harbor Islands in 2014.</p>
+                </div>
+            </div>
+        </div>
+            </section>
+
+        <!-- Achivement Container -->
+        <div class="w3-container w3-padding-64 w3-center w3-theme-l4" id="achievements">
+            <h2>Achivements</h2>
+            <p>Save the Harbor/Save the Bay's current programs are designed to restore and protect Boston Harbor and Massachusetts Bay, and share and reconnect all Bostonians, the region's residents, and especially underserved youth and teens and low-income families to the harbor, waterfront, beaches and islands we have worked so hard to restore and protect.</p>
 
             <div class="w3-row"><br>
 
                 <div class="w3-quarter">
-                    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-                    <h3>Johnny Walker</h3>
-                    <p>Web Designer</p>
+                    <img src="img/dirtybeach.jpg" alt="Boss" style="width:90%" class="w3-circle w3-hover-opacity">
+                    <h3>Successfully advocated for the completion of the Boston Harbor cleanup, </h3>
+                    <p>transforming Boston Harbor from a national disgrace into a source of recreational, educational and economic opportunity and civic pride.</p>
                 </div>
 
                 <div class="w3-quarter">
-                    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-                    <h3>Rebecca Flex</h3>
-                    <p>Support</p>
+                    <img src="img/islandpark.jpg" alt="Boss" style="width:90%" class="w3-circle w3-hover-opacity">
+                    <h3>Led the effort to create the Boston Harbor Islands National Park, </h3>
+                    <p>transforming 34 neglected islands into a remarkable destination for the region’s residents and visitors alike. </p>
                 </div>
 
                 <div class="w3-quarter">
-                    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-                    <h3>Jan Ringo</h3>
-                    <p>Boss man</p>
+                    <img src="img/seweroverflow.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+                    <h3>Led the effort to virtually eliminate both combined sewer overflows and storm water discharges</h3>
+                    <p>into North Dorchester Bay, transforming the South Boston beaches into some of the cleanest urban beaches in America.
+</p>
                 </div>
 
                 <div class="w3-quarter">
-                    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-                    <h3>Kai Ringo</h3>
-                    <p>Fixer</p>
+                    <img src="img/education.jpg" alt="Boss" style="width:80%" class="w3-circle w3-hover-opacity">
+                    <h3>All access to Boston Habor</h3>
+                    <p>In 2014, our free youth environmental education and family programs All Access Boston Harbor, the Boston Harbor Explorers, and our free Marine Mammal Safaris and Treasures of Spectacle Island Cruises connected over 18,000 youth, teens and their families to Boston Harbor and the Boston Harbor Islands National Park.</p>
                 </div>
 
             </div>
         </div>
 
-        <!-- Work Row -->
-        <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
-
-            <div class="w3-quarter">
-                <h2>Our Work</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-
-            <div class="w3-quarter">
-                <div class="w3-card w3-white">
-                    <img src="/w3images/snow.jpg" alt="Snow" style="width:100%">
-                    <div class="w3-container">
-                        <h3>Customer 1</h3>
-                        <h4>Trade</h4>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-quarter">
-                <div class="w3-card w3-white">
-                    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-                    <div class="w3-container">
-                        <h3>Customer 2</h3>
-                        <h4>Trade</h4>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-quarter">
-                <div class="w3-card w3-white">
-                    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-                    <div class="w3-container">
-                        <h3>Customer 3</h3>
-                        <h4>Trade</h4>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Container -->
-        <div class="w3-container" style="position:relative">
-            <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
-               style="position:absolute;top:-28px;right:24px">+</a>
-        </div>
-
-        <!-- Pricing Row -->
-        <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
-            <h2>PRICING</h2>
-            <p>Choose a pricing plan that fits your needs.</p><br>
-            <div class="w3-third w3-margin-bottom">
-                <ul class="w3-ul w3-border w3-hover-shadow">
-                    <li class="w3-theme">
-                        <p class="w3-xlarge">Basic</p>
-                    </li>
-                    <li class="w3-padding-16"><b>10GB</b> Storage</li>
-                    <li class="w3-padding-16"><b>10</b> Emails</li>
-                    <li class="w3-padding-16"><b>10</b> Domains</li>
-                    <li class="w3-padding-16"><b>Endless</b> Support</li>
-                    <li class="w3-padding-16">
-                        <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
-                        <span class="w3-opacity">per month</span>
-                    </li>
-                    <li class="w3-theme-l5 w3-padding-24">
-                        <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="w3-third w3-margin-bottom">
-                <ul class="w3-ul w3-border w3-hover-shadow">
-                    <li class="w3-theme-l2">
-                        <p class="w3-xlarge">Pro</p>
-                    </li>
-                    <li class="w3-padding-16"><b>25GB</b> Storage</li>
-                    <li class="w3-padding-16"><b>25</b> Emails</li>
-                    <li class="w3-padding-16"><b>25</b> Domains</li>
-                    <li class="w3-padding-16"><b>Endless</b> Support</li>
-                    <li class="w3-padding-16">
-                        <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
-                        <span class="w3-opacity">per month</span>
-                    </li>
-                    <li class="w3-theme-l5 w3-padding-24">
-                        <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="w3-third w3-margin-bottom">
-                <ul class="w3-ul w3-border w3-hover-shadow">
-                    <li class="w3-theme">
-                        <p class="w3-xlarge">Premium</p>
-                    </li>
-                    <li class="w3-padding-16"><b>50GB</b> Storage</li>
-                    <li class="w3-padding-16"><b>50</b> Emails</li>
-                    <li class="w3-padding-16"><b>50</b> Domains</li>
-                    <li class="w3-padding-16"><b>Endless</b> Support</li>
-                    <li class="w3-padding-16">
-                        <h2 class="w3-wide"><i class="fa fa-usd"></i> 50</h2>
-                        <span class="w3-opacity">per month</span>
-                    </li>
-                    <li class="w3-theme-l5 w3-padding-24">
-                        <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
 
         <!-- Contact Container -->
         <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
-            <div class="w3-row">
-                <div class="w3-col m5">
                     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
                     <h3>Address</h3>
                     <p>Swing by for a cup of coffee, or whatever.</p>
-                    <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
-                    <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
-                    <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+                    <p><i class="fa fa-map-marker w3-text-teal w3-xlarge" style= "padding:2px"></i>  Boston, US</p>
+                    <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>   Phone:(617) 451-2860</p>
+                    <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>   Fax:(617) 451-0496</p>
+                    <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  info@savetheharbor.org </p>
+                    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal w3-margin-top" title="Go To W3.CSS">DONATE</button>
                 </div>
-                <div class="w3-col m7">
-                    <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
-                        <div class="w3-section">      
-                            <label>Name</label>
-                            <input class="w3-input" type="text" name="Name" required>
-                        </div>
-                        <div class="w3-section">      
-                            <label>Email</label>
-                            <input class="w3-input" type="text" name="Email" required>
-                        </div>
-                        <div class="w3-section">      
-                            <label>Message</label>
-                            <input class="w3-input" type="text" name="Message" required>
-                        </div>  
-                        <input class="w3-check" type="checkbox" checked name="Like">
-                        <label>I Like it!</label>
-                        <button type="submit" class="w3-button w3-right w3-theme">Send</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+    
 
         <!-- Image of location/map -->
-        <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+        <div class="w3-container w3-center" style="background-color: #ABD2D7;">
+            <img src="img/MA.jpg" class="w3-image w3-greyscale-min w3-center" style="width:50%;">
+        </div>
 
         <!-- Footer -->
         <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
             <h4>Follow Us</h4>
-            <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
-            <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
-            <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
-            <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
-            <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+            <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/savetheharbor/" target="blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a class="w3-button w3-large w3-teal" href="https://twitter.com/savetheharbor?lang=en" target="blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+            <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/savetheharbor/?hl=en" target="blank" title="Instagram"><i class="fa fa-instagram"></i></a>
+            <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/company/save-the-harbor-save-the-bay" target="blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>
             <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 
             <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
@@ -321,6 +205,10 @@
                 }
             }
         </script>
+
+        <script src="js/slideshow.js"></script>
+
+        <script src="js/tab.js"></script>
 
     </body>
 </html>
